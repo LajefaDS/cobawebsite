@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 if($_SERVER['REQUEST_METHOD'] == 'GET'){
     $responses = array(
-        'message' => 'Lajefa Djuda Sianturi'
+        include "andex.php"
     );
 }else{
     http_response_code(405);
