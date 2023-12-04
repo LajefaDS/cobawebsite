@@ -1,14 +1,7 @@
 <?php
 
-header('Content-Type: application/json');
-if($_SERVER['REQUEST_METHOD'] == 'GET'){
-    $responses = array(
-        include "andex.php"
-    );
-}else{
-    http_response_code(405);
-    echo json_encode(array('error' => 'Ga Bisa Masuk'));
-}
+header ('Content-Type: application/json');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
