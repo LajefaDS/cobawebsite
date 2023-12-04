@@ -1,8 +1,3 @@
-<?php
-
-header ('Content-Type: application/json');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
